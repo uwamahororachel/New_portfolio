@@ -1,0 +1,200 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+
+	color: #dfdfdf;
+	background-color: linear-gradient(rgba(149, 10, 10, 0.5), rgba(0, 0, 0, 0.5));
+	background-image:url("../img/uwamahoro.jpeg");
+	height: 500px;
+	background-position: 0px 50% ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+.nav{
+	width: 100%;
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+
+.section-2 {
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.section-3 {
+	background-color: transparent;
+}
+
+
+
+.section-5 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+	transition: .4s;
+}
+
+a.nav-item:hover {
+	background-color: rgba(192, 175, 175, 0.5);
+	color: #fff;
+}
+
+
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+
+
+
+/* Cv and Resume Overlay */
+.section-4{
+	background-color: rgba(0, 0, 0, 0.4);
+}	
+.overtext {
+  position: relative;
+  width: 50%;
+}
+
+.overtext .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.overtext:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ############################## End*/
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background: #0F2027;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	
+}
+
+
+
+
+.hero-image {
+	height: 500px;
+	
+  }
+  
+  .hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	background-color: rgba(0, 0, 0, 0.4);
+	left: 50%;
+	padding: 20px;
+	transform: translate(-50%, -50%);
+	color: white;
+  }
+
+
+  /* Section of social Media */
+
+  #social img{
+	width: 50%;
+	display: table	;
+	transition:.3s;
+	margin: 0px auto;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#social img:hover{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
